@@ -1,3 +1,4 @@
+/* DTO de resposta do login e cadastro, retornando token e identificacao do usuario. */
 package br.ufpe.tasktrack.DTO;
 
 public class AuthResponseDTO {

@@ -1,3 +1,4 @@
+// Tela de listagem e cadastro de cursos com busca e navegacao para detalhes.
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { createCourse, listCourses } from '../../services/courseApi'

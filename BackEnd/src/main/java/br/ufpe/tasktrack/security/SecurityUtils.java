@@ -1,3 +1,4 @@
+/* Helper pequeno para recuperar o email do usuario autenticado no contexto de seguranca. */
 package br.ufpe.tasktrack.security;
 
 import org.springframework.security.core.Authentication;

@@ -1,3 +1,4 @@
+/* Entidade de aula associada a um curso, com status de rascunho ou publicado. */
 package br.ufpe.tasktrack.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;

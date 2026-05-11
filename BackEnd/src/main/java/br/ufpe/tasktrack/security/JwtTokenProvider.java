@@ -1,3 +1,4 @@
+/* Gera, valida e extrai informacoes dos tokens JWT usados pela API. */
 package br.ufpe.tasktrack.security;
 
 import io.jsonwebtoken.Claims;

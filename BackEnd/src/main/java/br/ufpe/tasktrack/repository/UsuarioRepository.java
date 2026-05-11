@@ -1,3 +1,4 @@
+/* Repositorio JPA de usuarios, com busca por email para autenticacao. */
 package br.ufpe.tasktrack.repository;
 
 import br.ufpe.tasktrack.domain.Usuario;

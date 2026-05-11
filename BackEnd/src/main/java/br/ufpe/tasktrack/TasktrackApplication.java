@@ -1,3 +1,4 @@
+/* Ponto de entrada do backend Spring Boot; sobe a aplicacao e inicializa o contexto. */
 package br.ufpe.tasktrack;
 
 import org.springframework.boot.SpringApplication;

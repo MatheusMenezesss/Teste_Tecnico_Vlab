@@ -1,3 +1,4 @@
+/* Entidade de usuario com validacoes de cadastro e senha protegida na serializacao. */
 package br.ufpe.tasktrack.domain;
 
 import com.fasterxml.jackson.annotation.JsonProperty;

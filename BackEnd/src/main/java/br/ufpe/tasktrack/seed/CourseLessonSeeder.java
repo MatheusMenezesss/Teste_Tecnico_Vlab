@@ -1,3 +1,4 @@
+/* Carrega usuarios, cursos e aulas iniciais a partir dos arquivos JSON de seed. */
 package br.ufpe.tasktrack.seed;
 
 import br.ufpe.tasktrack.domain.Course;

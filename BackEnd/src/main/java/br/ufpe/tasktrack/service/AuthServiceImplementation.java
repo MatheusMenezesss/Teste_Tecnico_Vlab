@@ -1,3 +1,4 @@
+/* Realiza login e cadastro, gerando JWT e protegendo a senha com encoder. */
 package br.ufpe.tasktrack.service;
 
 import br.ufpe.tasktrack.DTO.AuthResponseDTO;

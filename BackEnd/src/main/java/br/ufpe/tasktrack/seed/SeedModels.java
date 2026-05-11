@@ -1,3 +1,4 @@
+/* Registra os modelos auxiliares usados na leitura dos arquivos de seed. */
 package br.ufpe.tasktrack.seed;
 
 import java.util.List;

@@ -1,3 +1,4 @@
+// Home autenticada que lista cursos e abre a descricao em modal.
 import { useEffect, useMemo, useState } from 'react'
 import './style.css'
 import { getUser, clearAuth } from '../../services/authStorage'

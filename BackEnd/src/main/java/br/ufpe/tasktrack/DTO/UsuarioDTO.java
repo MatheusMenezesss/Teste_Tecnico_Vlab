@@ -1,3 +1,4 @@
+/* DTO que retorna os dados publicos do usuario sem o campo de senha. */
 package br.ufpe.tasktrack.DTO;
 
 import br.ufpe.tasktrack.domain.Usuario;

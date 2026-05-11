@@ -1,3 +1,4 @@
+/* DTO de entrada para criar ou atualizar cursos sem expor a entidade completa. */
 package br.ufpe.tasktrack.DTO;
 
 import jakarta.validation.constraints.NotBlank;

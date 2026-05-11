@@ -1,3 +1,4 @@
+/* DTO de entrada para cadastro de novo usuario. */
 package br.ufpe.tasktrack.DTO;
 
 import jakarta.validation.constraints.Email;

@@ -1,3 +1,4 @@
+/* Encapsula as operacoes de usuario e converte a entidade para DTO na resposta. */
 package br.ufpe.tasktrack.service;
 
 import br.ufpe.tasktrack.DTO.UsuarioDTO;

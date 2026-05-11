@@ -1,3 +1,4 @@
+/* Intercepta requests, valida o JWT e popula o contexto de autenticacao do Spring. */
 package br.ufpe.tasktrack.security;
 
 import jakarta.servlet.FilterChain;
@@ -83,7 +84,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             filterChain.doFilter(request, response);
 
         } catch (Exception ex) {
-            // 11) Se o token vier malformado e der exception aqui, a gente não derruba o servidor.
+            // 11) Se o token vier malformado e der exception aqui, não derruba o servidor.
             // Apenas segue sem autenticar; rotas protegidas serão negadas.
             filterChain.doFilter(request, response);
         }

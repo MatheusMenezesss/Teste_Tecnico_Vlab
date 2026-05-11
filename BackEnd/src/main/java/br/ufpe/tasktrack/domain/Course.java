@@ -1,3 +1,4 @@
+/* Entidade principal que modela um curso, suas datas, o criador e as aulas vinculadas. */
 package br.ufpe.tasktrack.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

@@ -1,3 +1,4 @@
+/* Endpoint simples para listar e criar usuarios, usado principalmente no suporte ao fluxo de teste. */
 package br.ufpe.tasktrack.controller;
 
 import br.ufpe.tasktrack.domain.Usuario;

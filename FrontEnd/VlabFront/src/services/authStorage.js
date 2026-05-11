@@ -1,6 +1,4 @@
-
-// authStorage.js
-// Este módulo é responsável por armazenar e recuperar informações de autenticação (token e dados do usuário)
+// Gerencia o token e os dados basicos do usuario no localStorage.
 export function setAuth(authResponse) {
     const token = authResponse?.token ?? authResponse?.accessToken
     if (token) localStorage.setItem('access_token', token)

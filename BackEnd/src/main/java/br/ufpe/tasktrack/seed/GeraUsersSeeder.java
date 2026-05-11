@@ -1,3 +1,4 @@
+/* Gera o arquivo users.json com usuarios iniciais quando ele ainda nao existe. */
 package br.ufpe.tasktrack.seed;
 
 import com.fasterxml.jackson.databind.ObjectMapper;

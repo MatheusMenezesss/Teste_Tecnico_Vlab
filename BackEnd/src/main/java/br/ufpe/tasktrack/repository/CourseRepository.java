@@ -1,3 +1,4 @@
+/* Repositorio JPA para consultas e persistencia de cursos. */
 package br.ufpe.tasktrack.repository;
 
 //import java.util.List;

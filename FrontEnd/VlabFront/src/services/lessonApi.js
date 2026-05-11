@@ -1,3 +1,4 @@
+// Centraliza as chamadas da API relacionadas a aulas.
 import api from './api'
 
 export async function listLessonsByCourse(courseId) {

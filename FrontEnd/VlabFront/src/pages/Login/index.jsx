@@ -1,3 +1,4 @@
+// Tela de autenticacao que cobre login e cadastro rapido de usuarios.
 import { useEffect, useState } from 'react'
 import api from '../../services/api'
 import './style.css'

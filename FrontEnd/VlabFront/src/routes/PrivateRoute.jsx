@@ -1,3 +1,4 @@
+// Protege rotas privadas e redireciona para login quando nao ha token salvo.
 import { Navigate, Outlet } from 'react-router-dom'
 import { getToken } from '../services/authStorage'
 

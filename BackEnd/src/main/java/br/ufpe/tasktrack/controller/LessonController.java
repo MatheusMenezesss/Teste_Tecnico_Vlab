@@ -1,3 +1,4 @@
+/* Disponibiliza as rotas de aulas ligadas a um curso e usa a camada de servico para persistir. */
 package br.ufpe.tasktrack.controller;
 
 import br.ufpe.tasktrack.domain.Lesson;

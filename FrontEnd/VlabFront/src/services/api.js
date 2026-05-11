@@ -1,3 +1,4 @@
+// Instancia Axios com base URL do backend e injeta o token nas rotas protegidas.
 import axios from 'axios'
 
 const api = axios.create({

@@ -1,3 +1,4 @@
+/* DTO de entrada para autenticar usuario com email e senha. */
 package br.ufpe.tasktrack.DTO;
 
 import jakarta.validation.constraints.Email;

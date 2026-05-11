@@ -1,3 +1,4 @@
+// Detalha um curso, exibe suas aulas e permite criar novas aulas no mesmo contexto.
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { getCourse } from '../../services/courseApi'

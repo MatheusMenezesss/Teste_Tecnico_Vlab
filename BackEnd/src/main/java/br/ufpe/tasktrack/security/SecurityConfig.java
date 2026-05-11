@@ -1,3 +1,4 @@
+/* Configura a seguranca da API, liberando auth e protegendo o restante com JWT. */
 package br.ufpe.tasktrack.security;
 
 import org.springframework.beans.factory.annotation.Autowired;

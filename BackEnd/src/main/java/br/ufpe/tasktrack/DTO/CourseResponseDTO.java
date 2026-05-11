@@ -1,3 +1,4 @@
+/* DTO de saida com os dados do curso e informacoes resumidas do criador. */
 package br.ufpe.tasktrack.DTO;
 
 import java.time.LocalDate;

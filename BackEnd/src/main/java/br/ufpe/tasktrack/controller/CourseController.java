@@ -1,3 +1,4 @@
+/* Controla o CRUD de cursos, validando o usuario logado para criar, editar e remover. */
 package br.ufpe.tasktrack.controller;
 
 import br.ufpe.tasktrack.domain.Course;

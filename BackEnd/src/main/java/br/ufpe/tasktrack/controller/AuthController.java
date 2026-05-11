@@ -1,4 +1,5 @@
 
+/* Exibe os endpoints de login e cadastro e delega a autenticacao para o servico. */
 package br.ufpe.tasktrack.controller;
 
 import br.ufpe.tasktrack.DTO.AuthResponseDTO;

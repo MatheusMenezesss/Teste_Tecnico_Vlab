@@ -40,7 +40,7 @@ public class LessonService {
         existing.setTitle(lesson.getTitle());
         existing.setStatus(lesson.getStatus());
         existing.setVideoUrl(lesson.getVideoUrl());
-        // não permitir trocar course aqui (por simplicidade)
+        // não permitir trocar course aqui
         return lessonRepository.save(existing);
     }
 
