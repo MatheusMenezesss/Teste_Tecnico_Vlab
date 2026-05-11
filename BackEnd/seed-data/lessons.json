@@ -1,0 +1,56 @@
+[
+  {
+    "courseName": "Java + Spring Boot (API)",
+    "title": "Introdução ao Spring Boot",
+    "status": "DRAFT",
+    "videoUrl": "https://example.com/spring-1"
+  },
+  {
+    "courseName": "Java + Spring Boot (API)",
+    "title": "Controllers + DTOs",
+    "status": "PUBLISHED",
+    "videoUrl": "https://example.com/spring-2"
+  },
+  {
+    "courseName": "Java + Spring Boot (API)",
+    "title": "JPA: entidades e relacionamentos",
+    "status": "PUBLISHED",
+    "videoUrl": "https://example.com/spring-3"
+  },
+  {
+    "courseName": "React (Front-End)",
+    "title": "JSX e componentes",
+    "status": "PUBLISHED",
+    "videoUrl": "https://example.com/react-1"
+  },
+  {
+    "courseName": "React (Front-End)",
+    "title": "useState e useEffect",
+    "status": "PUBLISHED",
+    "videoUrl": "https://example.com/react-2"
+  },
+  {
+    "courseName": "React (Front-End)",
+    "title": "Rotas privadas + consumo de API",
+    "status": "DRAFT",
+    "videoUrl": "https://example.com/react-3"
+  },
+  {
+    "courseName": "Banco de Dados (PostgreSQL)",
+    "title": "Modelagem entidade-relacionamento",
+    "status": "PUBLISHED",
+    "videoUrl": "https://example.com/db-1"
+  },
+  {
+    "courseName": "Banco de Dados (PostgreSQL)",
+    "title": "SQL SELECT: filtros e joins",
+    "status": "PUBLISHED",
+    "videoUrl": "https://example.com/db-2"
+  },
+  {
+    "courseName": "Banco de Dados (PostgreSQL)",
+    "title": "Índices e performance",
+    "status": "DRAFT",
+    "videoUrl": "https://example.com/db-3"
+  }
+]

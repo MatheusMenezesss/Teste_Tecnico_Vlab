@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Java + Spring Boot (API)",
+    "description": "Curso focado em APIs REST com Spring Boot, JPA e autenticação JWT.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-06-01",
+    "creatorEmail": "usuario01@vlab.local"
+  },
+  {
+    "name": "React (Front-End)",
+    "description": "Componentes, estado, rotas privadas e integração com backend via Axios.",
+    "startDate": "2026-05-03",
+    "endDate": "2026-06-05",
+    "creatorEmail": "usuario02@vlab.local"
+  },
+  {
+    "name": "Banco de Dados (PostgreSQL)",
+    "description": "Modelagem, relacionamentos, consultas e boas práticas com PostgreSQL.",
+    "startDate": "2026-05-05",
+    "endDate": "2026-06-10",
+    "creatorEmail": "usuario03@vlab.local"
+  }
+]

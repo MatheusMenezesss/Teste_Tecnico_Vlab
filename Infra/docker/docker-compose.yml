@@ -22,6 +22,8 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/coursesphere
       SPRING_DATASOURCE_USERNAME: admin
       SPRING_DATASOURCE_PASSWORD: admin
+    volumes:
+      - ../../BackEnd/seed-data:/app/seed-data
     ports:
       - "8080:8080"
 
