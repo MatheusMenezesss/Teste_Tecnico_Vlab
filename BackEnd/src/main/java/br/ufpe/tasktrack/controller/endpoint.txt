@@ -1,0 +1,18 @@
+/auth
+  POST /register
+  POST /login
+
+/courses
+  GET /
+  GET /{id}
+  POST /
+  PUT /{id}
+  DELETE /{id}
+
+/courses/{courseId}/lessons
+  GET /
+  POST /
+
+/lessons/{id}
+  PUT /
+  DELETE /

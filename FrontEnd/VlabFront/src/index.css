@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans Flex", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  /* não use flex aqui, cada página controla seu próprio layout */
+  display: block;
+
+  /* não defina background global se cada página já tem o seu */
+  background: #0b1220;
+}
+
+#root {
+  min-height: 100vh;
+}

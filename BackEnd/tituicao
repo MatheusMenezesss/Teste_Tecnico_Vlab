@@ -1,0 +1,51 @@
+     table_name      |      column_name      |          data_type          | is_nullable 
+---------------------+-----------------------+-----------------------------+-------------
+ boards              | id                    | bigint                      | NO
+ boards              | created_at            | timestamp without time zone | NO
+ boards              | name                  | character varying           | NO
+ cards               | id                    | bigint                      | NO
+ cards               | assigned_to           | character varying           | NO
+ cards               | column_id             | bigint                      | NO
+ cards               | created_at            | character varying           | NO
+ cards               | description           | character varying           | YES
+ cards               | position              | integer                     | NO
+ cards               | title                 | character varying           | NO
+ columns             | board_id              | bigint                      | NO
+ columns             | id                    | bigint                      | NO
+ columns             | name                  | character varying           | NO
+ columns             | order_index           | integer                     | NO
+ columns             | wip_limit             | integer                     | NO
+ emprestimo          | id_emprestimo         | integer                     | NO
+ emprestimo          | data_retorno_prevista | timestamp without time zone | YES
+ emprestimo          | data_retorno_real     | timestamp without time zone | YES
+ emprestimo          | data_saida            | timestamp without time zone | YES
+ emprestimo          | id_equipamento        | integer                     | NO
+ emprestimo          | id_estoque            | integer                     | NO
+ emprestimo          | id_usuario            | integer                     | NO
+ emprestimo          | qtd_devolvida         | integer                     | YES
+ emprestimo          | qtd_emprestada        | integer                     | YES
+ emprestimo          | status                | character varying           | YES
+ equipamento         | id_equipamento        | integer                     | NO
+ equipamento         | descricao             | text                        | YES
+ equipamento         | nome                  | character varying           | YES
+ estoque             | id_estoque            | integer                     | NO
+ estoque             | id_instituicao        | integer                     | NO
+ estoque             | nome                  | character varying           | YES
+ estoque             | registro              | integer                     | YES
+ estoque_equipamento | id_equipamento        | integer                     | NO
+ estoque_equipamento | id_estoque            | integer                     | NO
+ estoque_equipamento | quantidade_disponivel | integer                     | YES
+ estoque_equipamento | quantidade_total      | integer                     | YES
+ instituicao         | id_instituicao        | integer                     | NO
+ instituicao         | nome                  | character varying           | YES
+ instituicao         | sigla                 | character varying           | YES
+ usuario             | id_usuario            | integer                     | NO
+ usuario             | contato               | character varying           | YES
+ usuario             | cpf                   | character varying           | YES
+ usuario             | email                 | character varying           | YES
+ usuario             | endereco              | character varying           | YES
+ usuario             | login                 | character varying           | YES
+ usuario             | nome                  | character varying           | YES
+ usuario             | privilegio            | character varying           | YES
+(47 rows)
+

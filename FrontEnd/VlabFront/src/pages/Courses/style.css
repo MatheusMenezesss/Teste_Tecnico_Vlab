@@ -1,0 +1,99 @@
+.courses {
+  padding: 16px;
+  color: rgba(248, 250, 252, 0.92);
+}
+
+.courses__header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.courses__search {
+  min-width: 240px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(255, 255, 255, 0.06);
+  color: inherit;
+}
+
+.courses__panel {
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  background: rgba(255, 255, 255, 0.04);
+  margin-bottom: 18px;
+}
+
+.courses__form {
+  display: grid;
+  gap: 10px;
+}
+
+.courses__form input,
+.courses__form textarea {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(255, 255, 255, 0.06);
+  color: inherit;
+}
+
+.courses__form button {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  color: inherit;
+  cursor: pointer;
+}
+
+.courses__error {
+  margin-top: 10px;
+  color: #fecaca;
+}
+
+.courses__list {
+  display: grid;
+  gap: 10px;
+}
+
+.courseCard {
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.courseCard__title {
+  font-weight: 700;
+}
+
+.courseCard__meta {
+  opacity: 0.8;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.courses__headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .courses__backBtn {
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    background: rgba(255, 255, 255, 0.06);
+    color: rgba(248, 250, 252, 0.92);
+    cursor: pointer;
+  }
+  
+  .courses__backBtn:hover {
+    filter: brightness(1.06);
+  }
