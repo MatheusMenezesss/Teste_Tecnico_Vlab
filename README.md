@@ -88,5 +88,5 @@ postgres:
       - "5433:5432"
 
       
-SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5433/coursesphere
+SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/coursesphere
       
