@@ -53,6 +53,9 @@ Tasktrack/Vlab e uma aplicacao full-stack para gerenciamento de cursos e aulas c
 
 sudo bash Infra/Scripts/start.sh
 ```
+inicialmente será mais demorado, mas a partir do segundo builde o serviço consegue subir rapidamente.
+
+pode ser acessado pelo frontend: http://localhost:5173
 
 ## Servicos expostos
 
