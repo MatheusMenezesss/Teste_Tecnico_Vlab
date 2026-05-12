@@ -71,3 +71,19 @@ sudo bash Infra/Scripts/start.sh
 
 - O frontend roda com Vite em `0.0.0.0`, entao fica acessivel pelo navegador.
 - O backend usa o banco PostgreSQL do compose por variaveis de ambiente.
+- Caso algum porta já esteja em uso pode ser trocada em docker-compose
+
+nos meus testes, a porta 5432 já estava em uso e modifiquei para a porta 5433 ficando assim no arquivo:
+postgres:
+    image: postgres:16
+    container_name: coursesphere-db
+    environment:
+      POSTGRES_DB: coursesphere
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5433:5432"
+
+      
+SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5433/coursesphere
+      
